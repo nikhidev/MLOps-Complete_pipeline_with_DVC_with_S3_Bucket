@@ -108,7 +108,7 @@ def main():
         save_data(train_df,
                   os.path.join("./data", "processed", "train_tfidf.csv"))
         save_data(test_df,
-                   os.path.join("./data", "processed", "test_tfidf.csv"))
+                  os.path.join("./data", "processed", "test_tfidf.csv"))
     except Exception as e:
         logger.error('Failed to complete the feature engineering process: %s', e)
         print(f"Error: {e}")
