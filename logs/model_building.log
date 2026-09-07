@@ -1,0 +1,9 @@
+2026-09-07 16:14:47,172 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4194, 51)
+2026-09-07 16:14:47,176 - model_building - DEBUG - Initializing RandomForest model with parameters: {'random_state:2', 'n_estmators:25'}
+2026-09-07 16:14:47,177 - model_building - ERROR - Error during model training: 'set' object is not subscriptable
+2026-09-07 16:14:47,178 - model_building - ERROR - Failed to complete the model building process: 'set' object is not subscriptable
+2026-09-07 16:16:47,080 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4194, 51)
+2026-09-07 16:16:47,088 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 2}
+2026-09-07 16:16:47,089 - model_building - DEBUG - Model training started with 4194 samples
+2026-09-07 16:16:47,240 - model_building - DEBUG - Model training completed
+2026-09-07 16:16:47,244 - model_building - DEBUG - Model saved to models/model.pkl

@@ -1,0 +1,10 @@
+2026-09-07 15:56:20,824 - feature_engineering - ERROR - File is not find:params.yaml
+2026-09-07 15:56:20,825 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'params.yaml'
+2026-09-07 15:59:02,420 - feature_engineering - ERROR - Unexpected error occured while loading the data [Errno 2] No such file or directory: '/.data/interim/train_processed.csv'
+2026-09-07 15:59:02,421 - feature_engineering - ERROR - Unexpected error occured while loading the data [Errno 2] No such file or directory: './data/interim/test_processed.csv'
+2026-09-07 15:59:02,422 - feature_engineering - ERROR - Error during Bag of Words transformation: 'NoneType' object is not subscriptable
+2026-09-07 15:59:02,422 - feature_engineering - ERROR - Failed to complete the feature engineering process: 'NoneType' object is not subscriptable
+2026-09-07 15:59:50,422 - feature_engineering - ERROR - Unexpected error occured while loading the data [Errno 2] No such file or directory: './data/interim/train_processed.csv'
+2026-09-07 15:59:50,423 - feature_engineering - ERROR - Unexpected error occured while loading the data [Errno 2] No such file or directory: './data/interim/test_processed.csv'
+2026-09-07 15:59:50,424 - feature_engineering - ERROR - Error during Bag of Words transformation: 'NoneType' object is not subscriptable
+2026-09-07 15:59:50,424 - feature_engineering - ERROR - Failed to complete the feature engineering process: 'NoneType' object is not subscriptable
